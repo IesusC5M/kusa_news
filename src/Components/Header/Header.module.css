@@ -1,0 +1,22 @@
+.header {
+    background-color: #960018;
+    display: flex;
+    align-items: space-between;
+}
+/* <nav> */
+.logoNav {
+    background-color: #B22222;
+}
+/* <img> */
+.logo {
+    width: 150px;
+}
+
+.links {
+    display: flex;
+    width: 100vw;
+}
+
+.list {
+    display: none;
+}

@@ -1,14 +1,8 @@
 import './App.css';
-import Nav from './Components/Nav.js';
+import Header from './Components/Header/Header';
 
 function App() {
-
-  return(
-    <header id="header">
-      <Nav></Nav>
-    </header>
-    )
-
+  return <Header />;
 }
 
 export default App;
