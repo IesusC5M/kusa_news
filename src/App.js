@@ -1,16 +1,11 @@
 import './App.css';
 import Nav from './Components/Nav.js';
+
 function App() {
 
   return(
-    <header>
-      <nav id="nav">
-        <img src="/logo.png" alt="kusa-news" width="150px"></img>
-        <Nav text="MÁS RECIENTES | トップ"/>
-        <Nav text="ENTRETENIMIENTO | エンタメ"/>
-        <Nav text="DEPORTES | スポーツ"/>
-        <Nav text="POLÍTICA | 政治"/>
-      </nav>
+    <header id="header">
+      <Nav></Nav>
     </header>
     )
 

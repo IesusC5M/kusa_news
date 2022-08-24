@@ -4,9 +4,18 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-#nav {
+.App {
+  width: 100wh;
+  height: 100vh;
+}
+
+#header {
+  background-color: #960018;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100wh;
   display: flex;
-  width: 95%;
-  justify-content: space-between;
+  display: absolute;
   align-items: center;
+  flex-basis: auto;
 }
